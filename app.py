@@ -207,8 +207,8 @@ with st.sidebar:
         "TTA (imagen + espejo)", value=False, help="Promedia la predicción de la imagen y de su reflejo."
     )
     st.caption(
-        "Resultados del modelo del sistema en el conjunto de prueba (1 869 imágenes): "
-        "accuracy 0.9294 · macro F1 0.9282."
+        "Modelo incluido, evaluado en el conjunto de prueba (1 338 imágenes): "
+        "accuracy 0.9238 (con TTA) · macro F1 0.9265."
     )
 
 ruta, tipo = disponibles[nombre]
